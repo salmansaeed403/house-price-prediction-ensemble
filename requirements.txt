@@ -1,10 +1,10 @@
-pandas
-numpy
+pandas==2.3.3
+numpy==2.3.5
 matplotlib
 seaborn
-scikit-learn
+scikit-learn==1.7.2
 scipy
-category-encoders
-xgboost
-catboost
+category-encoders==2.8.1
+xgboost==3.3.0
+catboost==1.2.10
 streamlit
