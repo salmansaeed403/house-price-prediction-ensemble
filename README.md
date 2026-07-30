@@ -1,5 +1,7 @@
 # 🏠 House Price Prediction using Machine Learning
 
+🔗 **[Live Demo](https://house-price-prediction-by-salman.streamlit.app/)**
+
 ## 📌 Project Overview
 
 This project predicts house prices from property characteristics — living area, bedrooms, bathrooms, location, condition, and more — using historical King County, WA housing sales data.
