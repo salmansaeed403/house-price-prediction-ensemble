@@ -77,6 +77,7 @@ Four models were trained and tuned, then the two strongest were combined into a 
 - High-value homes (>$723K) remain the hardest segment to price accurately, even after feature engineering.
 - Target encoding and `price_per_sqft_zipcode_avg` carry a mild same-row leakage risk; a more rigorous version would use K-fold (out-of-fold) encoding.
 - Results are based on a single train/test split rather than cross-validated estimates.
+- The model shows non-monotonic behavior for bedroom count and floors in isolation (confirmed via partial dependence analysis) — price peaks around 4 bedrooms / 1.5 floors and declines beyond that. This reflects real patterns in the training data (larger bedroom/floor counts correlate with a different, typically lower-value housing segment) rather than a modeling error.
 
 ---
 
